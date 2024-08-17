@@ -75,12 +75,10 @@ button {
   height: 7px;
   background-color: gray;
   position: relative;
-  /* opacity: 0.44; */
   z-index: 20;
 }
 
 .btn {
-  /* font-family: 'poppins', sans-serif; */
   padding: 3px 8px;
   font-weight: 400;
   color: white;
@@ -113,7 +111,6 @@ button {
   padding: 7px 101px 8px 14px;
   color: rgb(201, 201, 201);
   font-size: 12px;
-  /* font-weight: 500; */
   border-radius: 4px;
   background-color: rgba(23, 23, 23, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -129,13 +126,11 @@ button {
   color: white;
 }
 .secImg {
-  /* width: 555px; */
   position: relative;
 }
 .secImg img {
   width: 555px;
   position: relative;
-  /* top: 16px; */
   z-index: 10;
 }
 .secImg video {
@@ -172,29 +167,7 @@ section.first> div :nth-child(2) {
   top: 61px;
   right: 101px;
   width: 356px;
-  /* top: 79px; */
-  /* right: -144px; */
 }
-/* .second {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 70vw;
-  margin: auto;
-  color: white;
-  height: 400px;
-} */
-
-/* .third {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 70vw;
-  margin: auto;
-  margin-top: 50px;
-  color: white;
-  height: 400px;
-} */
 
 .faq {
   background-color: black;
@@ -239,15 +212,6 @@ section.first> div :nth-child(2) {
   background-color: rgba(128, 128, 128, 0.55);
 }
 
-/* .v2 video {
-  position: relative;
-  top: -280px;
-  right: -68px;
-  width: 211px;
-  height: 211px;
-} */
-
-
 footer {
   color: white;
   max-width: 60vw;
@@ -264,24 +228,13 @@ footer .questions {
 }
 .footer a {
   color: white;
-  /* padding: 10px; */
   font-size: 14px;
-  /* margin-right: 20px; */
 }
 .footeritem {
   display: flex;
   flex-direction: column;
   gap: 23px;
 }
-/* select {
-  font-size: 14px;
-  margin: 0 20px 0 2px;
-  border: 1px solid black;
-  border-radius: 4px;
-  background-color: rgba(23, 23, 23, 0.7);
-  width: 100px;
-  color: white;
-} */
 .footer h4 {
   font-size: 14px;
   font-weight: 200;
@@ -293,7 +246,6 @@ footer .questions {
   font-family: 'poppins', sans-serif;
   font-weight: 400;
   color: white;
-  /* background-color: rgba(272, 272, 272, 272, 0.09); */
   background-color: black;
   border-radius: 4px;
   border: 1px solid white;
@@ -357,5 +309,4 @@ footer .questions {
   .footeritem{
     align-items:center;
   }
-  
 }
